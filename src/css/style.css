@@ -1,0 +1,148 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+
+header {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+
+}
+
+header img {
+    max-width: 700px;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+
+}
+
+.container {
+    width: 60%;
+
+}
+
+.india {
+    width: 100%;
+    height: 100%;
+}
+
+.container1 {
+    width: 90%;
+}
+
+.planta {
+    max-width: 800px;
+    height: 100%;
+}
+
+
+.container2 {
+    width: 60%;
+
+}
+
+.indio {
+    width: 100%;
+    height: 100%;
+}
+
+main {
+
+    width: 800px;
+    margin: auto;
+}
+
+p {
+    font-size: 1.265rem;
+    padding: 20px;
+    color: #615656;
+
+}
+
+h1 {
+    font-size: 1.825rem;
+    font-weight: bold;
+    text-align: center;
+    color: #302d2d;
+
+}
+
+main img {
+    width: 100%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+
+.container3 {
+    max-width: 100%;
+    background: darkgreen;
+}
+
+@media (max-width:1230px) {
+
+ 
+   main{
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+   }
+
+   main img{
+    width: 550px;
+    margin: auto;
+   }
+
+    a img {
+        width: 100%;
+        margin: auto;
+    }
+
+    .container1 {
+        width: 100%;
+    }
+ 
+    .container1 img{
+        width: 600px;
+        padding: 50px;
+    }
+    .container {
+        display: none;
+    }
+
+    .container2 {
+        display: none;
+    }
+    .container3{
+        display: none
+        ;
+    }
+    p{
+        text-align: start;
+    }
+    
+    h1 {
+        font-size: 1.225rem;
+        font-weight: bold;
+        text-align: center;
+}
+
+ul{
+    margin: auto;
+}
+
+ul img {
+    width: 100%;
+}
+}
+
